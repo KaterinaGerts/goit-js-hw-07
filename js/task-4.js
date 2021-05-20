@@ -20,15 +20,11 @@ const increment = () => {
   counterValue += 1;
   document.querySelector('#value').textContent = counterValue;
 }
-increment();
-
 
 const decrement = () => {
   counterValue -= 1;
   document.querySelector('#value').textContent = counterValue;
 }
-decrement();
-
 
 incrementBtn.addEventListener('click', increment);
 decrementBtn.addEventListener('click', decrement);

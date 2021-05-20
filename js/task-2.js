@@ -21,7 +21,7 @@ const elementsEl = ingredients
     // console.log(ingredient);
     const liEl = document.createElement('li');    
     // console.log(liEl);    
-   liEl.innerHTML =ingredient;    
+   liEl.textContent =ingredient;    
      return liEl;
   });
   
